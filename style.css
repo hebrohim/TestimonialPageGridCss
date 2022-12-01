@@ -1,0 +1,136 @@
+
+
+:root {
+  /*primary color*/
+  --primary-1: hsl(263, 55%, 52%); /*Moderate violet */
+  --primary-2: hsl(217, 19%, 35%); /*Very dark grayish blue:*/
+  --primary-3: hsl(219, 29%, 14%); /*Very dark blackish blue */
+  --primary-4: hsl(0, 0%, 100%); /*White */
+
+  /* neutral Colors */
+  --neutral-1: hsl(0, 0%, 81%); /*Light gray*/
+  --neutral-2: hsl(210, 46%, 95%); /*Light grayish blue*/
+
+  /* secondary Color */
+  --secondary-1: hsl(228, 45%, 44%); /*.attribution a*/
+}
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 13px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: var(--neutral-1);
+  padding: 70px 0;
+ 
+}
+
+.container > .Daniel {
+  width: 80%;
+  /* height: 65vh; */
+  justify-self: center;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: var(--primary-1);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top 2px right 25px;
+}
+
+ .container > .Jonathan{
+  width: 80%;
+  justify-self: center;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: var(--primary-2);
+  
+ 
+}
+
+.container > .Jeanette{
+  width: 80%;
+  justify-self: center;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: var(--primary-4);
+
+  
+ 
+}
+
+.container > .patrick {
+  width: 80%;
+  /* height: 65vh; */
+  justify-self: center;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: var(--primary-3);
+
+}
+
+#profile_section {
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+#avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid var(--neutral-1);
+  width: 40px;
+}
+#profile_section > #name_status_Section {
+  color: var(--neutral-1);
+}
+
+#name_status_Section > #status {
+  opacity: 50%;
+}
+
+#testimonial_head {
+  color: var(--neutral-1);
+  margin-top: 10px;
+}
+
+#testimonial_paragraph {
+  color: var(--neutral-1);
+  opacity: 50%;
+  margin-top: 10px;
+}
+
+#testimonial_head_jeanette {
+  color: var(--primary-2);
+  margin-top: 10px;
+}
+
+#testimonial_paragraph_jeanette {
+  color: var(--primary-2);
+  opacity: 50%;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* media query starts here */
+
+ /* @media screen and (min-width:1200px){
+    .container{
+        grid-template-columns:repeat(2,1fr) ;
+        
+
+    }
+}  */
